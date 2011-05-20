@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953DDD471386581A00F61D2F /* testasdfb in Resources */ = {isa = PBXBuildFile; fileRef = 953DDD461386581A00F61D2F /* testasdfb */; };
 		95BA31671386558600CC45C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BA31661386558600CC45C8 /* QuartzCore.framework */; };
 		95BA31691386558600CC45C8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BA31681386558600CC45C8 /* OpenGLES.framework */; };
 		95BA316B1386558600CC45C8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BA316A1386558600CC45C8 /* OpenAL.framework */; };
@@ -127,6 +128,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		953DDD461386581A00F61D2F /* testasdfb */ = {isa = PBXFileReference; lastKnownFileType = folder; name = testasdfb; sourceTree = "<group>"; };
 		95BA31621386558600CC45C8 /* testasdfb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testasdfb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BA31661386558600CC45C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		95BA31681386558600CC45C8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -385,6 +387,7 @@
 		95BA31571386558600CC45C8 = {
 			isa = PBXGroup;
 			children = (
+				953DDD461386581A00F61D2F /* testasdfb */,
 				95BA31761386558600CC45C8 /* testasdfb */,
 				95BA31651386558600CC45C8 /* Frameworks */,
 				95BA31631386558600CC45C8 /* Products */,
@@ -761,6 +764,7 @@
 				95BA31851386558600CC45C8 /* Icon.png in Resources */,
 				95BA31871386558600CC45C8 /* Icon@2x.png in Resources */,
 				95BA318A1386558600CC45C8 /* iTunesArtwork in Resources */,
+				953DDD471386581A00F61D2F /* testasdfb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -964,6 +968,7 @@
 				95BA32D01386558700CC45C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
